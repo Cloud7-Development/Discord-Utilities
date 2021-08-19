@@ -9,6 +9,8 @@ module.exports = client // exporting client so that we can use it in other files
 client.commands = new Collection();
 // declaring aliases collection for commands
 client.aliases = new Collection();
+// declaring snipes collection for messageDelete
+client.snipes = new Collection();
 
 // making the handler to run stuff
 client.categories = readdirSync("./handlers");
