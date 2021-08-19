@@ -8,6 +8,6 @@ module.exports = {
     usage: '<test> [test]',
 
     run: async(msg) => {
-        msg.reply('test')
+        msg.reply('Hi! :) this is a test!')
     }
 }
