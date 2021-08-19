@@ -8,7 +8,7 @@
 
 <h1>🛠️ Discord Utilities</h1>
 
-<h2>⭐ Before You Begin</h2>
+<h2>⭐ Installation</h2>
 
 * Enter your bot's token in **[config.json](https://github.com/Cloud7-Development/Discord-Utilities/blob/main/config.json)**.
 * Install dependencies with `npm install`.
