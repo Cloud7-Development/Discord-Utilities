@@ -1,3 +1,8 @@
+<p align="center">
+[![djs](https://img.shields.io/badge/discord.js-v13-important)](https://discord.js.org/) [![version](https://img.shields.io/badge/version-V1.0.0-success)]
+
+</p>
+
 <p align="left">
 
 <h1>🛠️ Discord Utilities</h1>
