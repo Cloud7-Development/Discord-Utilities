@@ -1,7 +1,8 @@
-<p align="center">
-[![djs](https://img.shields.io/badge/discord.js-v13-important)](https://discord.js.org/) [![version](https://img.shields.io/badge/version-V1.0.0-success)]
+<div align="center">
 
-</p>
+[![djs](https://img.shields.io/badge/discord.js-v13-important)](https://discord.js.org/) [![version](https://img.shields.io/badge/version-V1.0.0-success)](https://github.com/Cloud7-Development/Discord-Utilities)
+
+</div>
 
 <p align="left">
 
