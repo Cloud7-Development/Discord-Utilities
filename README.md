@@ -17,3 +17,4 @@
 * Discord: [https://discord.gg/BTCvTQk5Fd](https://discord.gg/BTCvTQk5Fd)
 
 <h3>🎉 Happy Coding!</h3>
+</p>
