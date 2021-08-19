@@ -1,6 +1,6 @@
 <div align="center">
 
-[![djs](https://img.shields.io/badge/discord.js-v13-important?style=for-the-badge)](https://discord.js.org/) [![version](https://img.shields.io/badge/version-V1.0.0-success?style=for-the-badge)](https://github.com/Cloud7-Development/Discord-Utilities) [![contributors](https://img.shields.io/badge/contributors-4-informational?style=for-the-badge)](https://github.com/Cloud7-Development/Discord-Utilities/graphs/contributors)
+[![djs](https://img.shields.io/badge/discord.js-v13-important?style=for-the-badge)](https://discord.js.org/) [![version](https://img.shields.io/badge/version-V1.0.0-success?style=for-the-badge)](https://github.com/Cloud7-Development/Discord-Utilities) [![contributors](https://img.shields.io/badge/contributors-2-informational?style=for-the-badge)](https://github.com/Cloud7-Development/Discord-Utilities/graphs/contributors)
 
 </div>
 
