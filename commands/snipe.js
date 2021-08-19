@@ -14,7 +14,7 @@ module.exports = {
             channel = message.channel;
         };
 
-        if(typeof channel !== 'text') return message.reply('Invalid Channel Provided');
+        if(channel.type !== 'GUILD_TEXT') return message.react('⚠️');
 
         const snipes = client.snipes.get(channel);
         if(!snipes) return message.reply(`Nothing to snipe!`);

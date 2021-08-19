@@ -5,6 +5,9 @@ module.exports = {
     usage: '<number>',
 
     run: async(message, args) => {
+        if(!message.member.permissions.has('MANAGE_MESSAGES'))
+        return message.react('⚠️');
+
         if(!args[0]) return message.react('⚠️');
         if(isNaN(args[0])) return message.react('⚠️');
         if(args[0] > 99 || args[0] < 1) return message.react('⚠️');
