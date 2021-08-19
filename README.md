@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
 
 [![djs](https://img.shields.io/badge/discord.js-v13-important?style=for-the-badge)](https://discord.js.org/) [![version](https://img.shields.io/badge/version-V1.0.0-success?style=for-the-badge)](https://github.com/Cloud7-Development/Discord-Utilities)
 
