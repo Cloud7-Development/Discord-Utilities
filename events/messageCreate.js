@@ -16,7 +16,8 @@ client.on('messageCreate', async(message) => {
 
     const [cmd, ...args] = message.content.slice(prefix.length).trim().split(" "); // you may use `/ +/g` too in `split()`
 
-    const cmd = client.commands.get(cmd.toLowerCase())
+    const cmd = client.commands.get(cmd.toLowerCase()) ||
+                client.commands.get(client.aliases.get(cmd.toLowerCase()));
     if(!cmd) return message.reply(`No such command found with the name/alias: \`${cmd}\`.`);
 
     try {
