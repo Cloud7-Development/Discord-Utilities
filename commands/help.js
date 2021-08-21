@@ -56,6 +56,7 @@ module.exports = {
             .setDescription(command.description ? command.description : 'No Description for this command')
             .addField(`> Aliases`, command.aliases ? command.aliases.join(`, `) : "No Aliases for this command")
             .addField(`> Format`, `${command.usage ? `${prefix}${command.name} ${command.usage}` : `${prefix}${command.name}`} ${command.format ? `\n \nExample:\n${prefix}${command.name} ${Math.floor(Math.random() * command.format.length)}` : '_ _'}`)
+            .addField(`> Permissions`, `${command.userPerms ? command.userPerms[0] : 'No Permissions for this command'}`)
             .setFooter('Dev・Nin#1111', client.user.displayAvatarURL())
             .setColor(message.guild.me.displayHexColor === '#000000'
                 ? 'WHITE'
