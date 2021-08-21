@@ -2,10 +2,12 @@ module.exports = {
     name: 'nuke',
     description: 'Deletes and clones a channel',
     usage: '[channel]',
+    userPerms: ['MANAGE_CHANNELS'],
+    botPerms: ['MANAGE_CHANNELS'],
 
     run: async(client, message, args) => {
-        if(!message.member.permissions.has('MANAGE_CHANNELS')) return message.react('⚠️');
-        // same for bot perms
+        // if(!message.member.permissions.has('MANAGE_CHANNELS')) return message.react('⚠️');
+        
         let channel;
         if(message.mentions.channels.first()){
             channel = message.mentions.channels.first();

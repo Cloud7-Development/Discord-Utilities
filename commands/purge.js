@@ -3,10 +3,12 @@ module.exports = {
     aliases: ['clear', 'prune'],
     description: 'Clears given amount of messages in the channel',
     usage: '<number>',
+    userPerms: ['MANAGE_MESSAGES'],
+    botPerms: ['MANAGE_MESSAGES'],
 
     run: async(message, args) => {
-        if(!message.member.permissions.has('MANAGE_MESSAGES'))
-        return message.channel.send('You need `Manage Message` permission to use the purge command.');
+        // if(!message.member.permissions.has('MANAGE_MESSAGES'))
+        // return message.channel.send('You need `Manage Message` permission to use the purge command.');
 
         if(!args[0]) return message.channel.send('You need to specify the number of messages to purge!');
         if(isNaN(args[0])) return message.react('⚠️');
