@@ -21,6 +21,10 @@ client.on('messageCreate', async(message) => {
     if(!cmd) return message.reply(`No such command found with the name/alias: \`${cmd}\`.`);
 
     try {
+        if(message.member.permissions.has(cmd.userPerms || [])) 
+            return message.reply(`Missing \`$${cmd.userPerms[0]}\` permission.`);
+        if(message.guild.me.permissions.has(cmd.botPerms || [])) 
+            return message.reply(`I'm missing the \`${cmd.botPerms[0]}\` permission.`)
         await cmd.run(client, message, args)
     } catch (error) {
         console.error(error);
