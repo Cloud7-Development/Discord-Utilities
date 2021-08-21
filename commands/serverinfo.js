@@ -38,6 +38,13 @@ module.exports = {
             VERY_HIGH: 'Very High'
         };
 
+        const tiers = {
+            NONE: '0',
+            TIER_1: '1',
+            TIER_2: '2',
+            TIER_3: '3'
+        };
+
         // final embed
         const serverEmbed = new MessageEmbed()
         .setTitle(`Information for ${message.guild.name}`)
@@ -47,7 +54,18 @@ module.exports = {
         .addFields(
             {
                 name: 'Owner',
-                value: message.guild.members.fetch(message.guild.ownerId).user.tag
+                value: message.guild.members.fetch(message.guild.ownerId).user.tag,
+                inline: true,
+            },
+            {
+                name: 'Boosts',
+                value: `Level ${tiers[message.guild.premiumTier]} (${message.guild.premiumSubscriptionCount === 0 ? "No Boosts" : message.guild.premiumSubscriptionCount})`,
+                inline: true,
+            },
+            {
+                name: "\u200b",
+                value: "\u200b",
+                inline: true
             },
             {
                 name: 'Count',
