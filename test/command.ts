@@ -1,4 +1,4 @@
-import { Client } from "discord.js";
+import { Client, Message } from "discord.js";
 
 module.exports = {
     name: 'test',
@@ -6,11 +6,12 @@ module.exports = {
     hidden: true,
     description: 'test command',
     usage: '<test> [test]',
+    botPerms: ["ADMINISTRATOR"],
+    userPerms: ["ADMINISTRATOR"],
     
     /**
      * @param {Client} bot
-     * @param {String} msg
-     * @param msg message
+     * @param {Message} msg
      */
 
     run: async(msg) => {
