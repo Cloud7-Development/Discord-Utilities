@@ -16,7 +16,7 @@
 
 <h2>📜 Credits</h2> 
 
-* Developer: [Nin#1111](https://discord.com/users/838620835282812969)
+* Developer: [Jack o' Nin#8881](https://discord.com/users/838620835282812969)
 * Cloud7 Development: [Zapdos](https://github.com/Zapd0s), [ItzTej](https://github.com/tejkumar126), [Satyamedh](https://github.com/satyamedh), [Nin](https://github.com/Ninn08)
 
 <h2>🎫 Contact Us</h2>
